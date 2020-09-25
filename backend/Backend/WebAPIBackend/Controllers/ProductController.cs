@@ -9,65 +9,37 @@ using WebAPIBackend.Repository;
 
 namespace WebAPIBackend.Controllers
 {
-    [RoutePrefix("api/retailer")]
-    public class RetailerController : ApiController
+    [RoutePrefix("api/product")]
+    public class ProductController : ApiController
     {
-        IRetailerRepository<Retailer> dataRepository;
+        IProductRepository<Product> dataRepository;
 
-        public RetailerController()
+        public ProductController()
         {
-            this.dataRepository = new RetailerRepository(new E_CommerceEntities2());
+            this.dataRepository = new ProductRepository(new E_CommerceEntities2());
         }
 
 
         [HttpGet]
         [Route("GetAll")]
-        public IEnumerable<Retailer> GetRetailers()
-        
+        public IEnumerable<Product> GetProducts()
         {
             return dataRepository.GetAll();
         }
 
-        [HttpPost]
-        [Route("login")]
-        public IHttpActionResult VerifyLogin(Retailer retailerObj)
-        {
-            Retailer retailer = null;
-            try
-            {
-                retailer = dataRepository.VerifyLogin(retailerObj.Email, retailerObj.Password);
-                if (retailer == null)
-                    return NotFound();
-            }
-            //catch (System.Data.Entity.Validation.DbEntityValidationException ex)
-            //{
-            //    foreach (var validationErrors in ex.EntityValidationErrors)
-            //    {
-            //        foreach (var validationError in validationErrors.ValidationErrors)
-            //        {
-            //            Console.WriteLine("Property: {0} throws Error: {1}", 
-            //                validationError.PropertyName,
-            //                validationError.ErrorMessage);
-            //        }
-            //    }
-            //}
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            return Ok(retailer);
-        }
 
+
+       
 
         [HttpGet]
         [Route("{id}")]
-        public IHttpActionResult GetUser(int id)
+        public IHttpActionResult GetProduct(int id)
         {
-            Retailer retailerObj = null;
+            Product productObj = null;
             try
             {
-                retailerObj = dataRepository.Get(id);
-                if (retailerObj == null)
+                productObj = dataRepository.Get(id);
+                if (productObj == null)
                 {
                     return NotFound();
                 }
@@ -88,14 +60,14 @@ namespace WebAPIBackend.Controllers
             {
                 throw ex;
             }
-            return Ok(retailerObj);
+            return Ok(productObj);
         }
 
 
 
         [HttpPost]
         [Route("")]
-        public IHttpActionResult CreateRetailer([FromBody] Retailer retailerObj)
+        public IHttpActionResult CreateProduct([FromBody] Product productObj)
         {
             try
             {
@@ -104,7 +76,7 @@ namespace WebAPIBackend.Controllers
                     return BadRequest(ModelState);
                 }
 
-                dataRepository.Add(retailerObj);
+                dataRepository.Add(productObj);
             }
             //catch (System.Data.Entity.Validation.DbEntityValidationException ex)
             //{
@@ -122,18 +94,18 @@ namespace WebAPIBackend.Controllers
             {
                 throw ex;
             }
-            return Ok(retailerObj);
+            return Ok(productObj);
         }
 
 
         [HttpDelete]
         [Route("{id}")]
-        public IHttpActionResult DeleteRetailer(int id)
+        public IHttpActionResult DeleteProduct(int id)
         {
             try
             {
-                Retailer retailerObj = dataRepository.Get(id);
-                if (retailerObj == null)
+                Product productObj = dataRepository.Get(id);
+                if (productObj == null)
                 {
                     return NotFound();
                 }
@@ -149,17 +121,17 @@ namespace WebAPIBackend.Controllers
 
         [HttpPut]
         [Route("{id}")]
-        public IHttpActionResult UpdateRetailer(int id, [FromBody] Retailer retailerObj)
+        public IHttpActionResult UpdateProduct(int id, [FromBody] Product productObj)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            if (retailerObj == null)
+            if (productObj == null)
             {
-                return BadRequest("Retailer is null");
+                return BadRequest("Product is null");
             }
-            if (id != retailerObj.Retailer_Id)
+            if (id != productObj.Product_Id)
             {
                 return BadRequest();
             }
@@ -170,9 +142,9 @@ namespace WebAPIBackend.Controllers
             //    return NotFound();
             //}
 
-            dataRepository.Update(retailerObj);
+            dataRepository.Update(productObj);
 
-            return Ok(retailerObj);
+            return Ok(productObj);
         }
     }
 }

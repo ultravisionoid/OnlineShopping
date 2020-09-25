@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebAPIBackend.Models;
 
 namespace WebAPIBackend.Repository
 {
@@ -13,5 +14,7 @@ namespace WebAPIBackend.Repository
         void Add(TEntity entity);
         void Update(TEntity dbEntity);
         void Delete(int entity);
+        Retailer VerifyLogin(string email, string password);
+
     }
 }

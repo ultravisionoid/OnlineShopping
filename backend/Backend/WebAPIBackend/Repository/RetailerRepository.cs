@@ -44,5 +44,30 @@ namespace WebAPIBackend.Repository
         }
 
 
+
+        public Retailer VerifyLogin(string email, string password)
+        {
+            Retailer retailer = null;
+            try
+            {
+                var retailerFound = e_commerce.Retailers
+                                     .Where(u => u.Email == email && u.Password == password)
+                                     .SingleOrDefault();
+
+                if (retailerFound != null)
+                {
+                    retailer = retailerFound;
+                }
+                else
+                {
+                    retailer = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return retailer;
+        }
     }
 }

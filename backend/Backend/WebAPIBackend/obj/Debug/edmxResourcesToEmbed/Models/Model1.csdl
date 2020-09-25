@@ -28,8 +28,8 @@
     <Property Name="Is_Verified" Type="Int32" Nullable="false" />
     <Property Name="Product_Image" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
     <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_PROId" FromRole="Products" ToRole="Orders" />
+    <NavigationProperty Name="WishLists" Relationship="Self.FK__WishList__Produc__03F0984C" FromRole="Products" ToRole="WishList" />
     <NavigationProperty Name="Retailer" Relationship="Self.FK_Prod_RetId" FromRole="Products" ToRole="Retailers" />
-    <NavigationProperty Name="Users" Relationship="Self.WishList" FromRole="Products" ToRole="User" />
   </EntityType>
   <EntityType Name="Retailer">
     <Key>
@@ -68,7 +68,17 @@
     <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_UID" FromRole="User" ToRole="Orders" />
-    <NavigationProperty Name="Product" Relationship="Self.WishList" FromRole="User" ToRole="Products" />
+    <NavigationProperty Name="WishLists" Relationship="Self.FK_WishList_UID" FromRole="User" ToRole="WishList" />
+  </EntityType>
+  <EntityType Name="WishList">
+    <Key>
+      <PropertyRef Name="WishList_Id" />
+    </Key>
+    <Property Name="WishList_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Id" Type="Int32" Nullable="false" />
+    <Property Name="Product_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="Self.FK__WishList__Produc__03F0984C" FromRole="WishList" ToRole="Products" />
+    <NavigationProperty Name="User" Relationship="Self.FK_WishList_UID" FromRole="WishList" ToRole="User" />
   </EntityType>
   <Association Name="FK_Orders_PROId">
     <End Role="Products" Type="Self.Product" Multiplicity="1" />
@@ -106,6 +116,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK__WishList__Produc__03F0984C">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="WishList" Type="Self.WishList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Product_Id" />
+      </Principal>
+      <Dependent Role="WishList">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Prod_RetId">
     <End Role="Retailers" Type="Self.Retailer" Multiplicity="1">
       <OnDelete Action="Cascade" />
@@ -120,16 +142,25 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="WishList">
-    <End Role="Products" Type="Self.Product" Multiplicity="0..1" />
-    <End Role="User" Type="Self.User" Multiplicity="*" />
+  <Association Name="FK_WishList_UID">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="WishList" Type="Self.WishList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Id" />
+      </Principal>
+      <Dependent Role="WishList">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="E_CommerceEntities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="E_CommerceEntities2" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Orders" EntityType="Self.Order" />
     <EntitySet Name="Products" EntityType="Self.Product" />
     <EntitySet Name="Retailers" EntityType="Self.Retailer" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
     <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="WishLists" EntityType="Self.WishList" />
     <AssociationSet Name="FK_Orders_PROId" Association="Self.FK_Orders_PROId">
       <End Role="Products" EntitySet="Products" />
       <End Role="Orders" EntitySet="Orders" />
@@ -142,13 +173,17 @@
       <End Role="User" EntitySet="Users" />
       <End Role="Orders" EntitySet="Orders" />
     </AssociationSet>
+    <AssociationSet Name="FK__WishList__Produc__03F0984C" Association="Self.FK__WishList__Produc__03F0984C">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="WishList" EntitySet="WishLists" />
+    </AssociationSet>
     <AssociationSet Name="FK_Prod_RetId" Association="Self.FK_Prod_RetId">
       <End Role="Retailers" EntitySet="Retailers" />
       <End Role="Products" EntitySet="Products" />
     </AssociationSet>
-    <AssociationSet Name="WishList" Association="Self.WishList">
-      <End Role="Products" EntitySet="Products" />
+    <AssociationSet Name="FK_WishList_UID" Association="Self.FK_WishList_UID">
       <End Role="User" EntitySet="Users" />
+      <End Role="WishList" EntitySet="WishLists" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
