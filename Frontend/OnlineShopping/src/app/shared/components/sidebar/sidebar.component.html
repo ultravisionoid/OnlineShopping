@@ -1,0 +1,39 @@
+<mat-nav-list>
+    <div class="profile">
+        <div class="header">
+            <h2>Profile Info</h2>
+        </div>    
+
+    </div> 
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Pages</h2>
+    <div class='category'>
+        <button mat-button >Category1</button><br>
+        <button mat-button >Category1</button><br>
+        <button mat-button >Category1</button><br>
+        <button mat-button >Category1</button><br>
+        <button mat-button >Category1</button><br>
+    
+    </div>
+    
+    
+    <mat-divider></mat-divider>    
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item >Admin login</button>
+        <button mat-menu-item routerLink="userLogin">User Login</button>
+        <button mat-menu-item>Retailer Login</button>
+    </mat-menu>
+
+
+    <button mat-button [matMenuTriggerFor]='menu' *ngIf="login">
+        Login
+        <mat-icon>person_outline</mat-icon>
+        <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <br>
+    <button mat-icon-button>
+        Logout
+        <mat-icon>logout</mat-icon>
+    </button>
+
+</mat-nav-list>

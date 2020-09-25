@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>User Registration</h1>
+<form [formGroup]="userform">
+  <mat-form-field>
+      <input matInput placeholder="Enter Name" formControlName="Name">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <input matInput placeholder="Enter Email" formControlName="Email">
+</mat-form-field>
+<br>
+<mat-form-field>
+    <input matInput placeholder="Enter Mobile" formControlName="Mobile">
+</mat-form-field>
+<br>
+<mat-form-field>
+    <input matInput placeholder="Enter Address" formControlName="Address">
+</mat-form-field>
+<br>
+<mat-form-field>
+    <input matInput type="password" placeholder="Enter Password" formControlName="Password">
+</mat-form-field>
+<br>
+<button mat-raised-button color="primary"[disabled]="userform.invalid" (click)=onRegister>Register</button>
+</form>
+</div>
