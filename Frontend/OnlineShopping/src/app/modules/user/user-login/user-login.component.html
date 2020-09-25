@@ -22,7 +22,10 @@
             <span *ngIf="loginForm.controls.password.errors.required">This field is mandatory.</span>
           </mat-error>
         </mat-form-field><br>
-        <button mat-raised-button color="primary" type="submit">Log In</button>
+        <button mat-raised-button color="primary" type="submit">Log In</button> &nbsp;
+        <button mat-raised-button color="primary" [routerLink]="'/userRegistration'" >Register </button>
       </form>
     </div>
   </div>
+  
+ 

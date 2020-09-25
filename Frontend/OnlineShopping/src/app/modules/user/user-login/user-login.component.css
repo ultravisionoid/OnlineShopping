@@ -1,17 +1,21 @@
 login-container{
-    text-align: center;
-    border: black;
+    
     width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border:1px solid black;
+
+}
+
+.form-container{
+    
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.form-container{
-    width: 50 px; 
-    margin: 0 px auto; 
-    margin-top: 200 px
-}
-
 .form-field{
-    width:800px
+    width:600px;
+
 }
