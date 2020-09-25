@@ -2,6 +2,8 @@ login-container{
     text-align: center;
     border: black;
     width: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-container{

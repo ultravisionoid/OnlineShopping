@@ -1,7 +1,7 @@
 <div class="login-container">
     <div class="form-container">
       <form [formGroup]="loginForm" (submit)="submit()">
-        <label >Email</label>
+        <label >Email</label><br>
         <mat-form-field class="form-field" appearance="outline">
           <mat-label> E-mail
           </mat-label>
@@ -10,16 +10,18 @@
             <span *ngIf="loginForm.controls.email.errors.required">This field is mandatory.</span>
             <span *ngIf="loginForm.controls.email.errors.pattern">This field is invalid.</span>
           </mat-error>
-        </mat-form-field>
+        </mat-form-field><br>
         <label >Password</label>
+        <br>
         <mat-form-field class="form-field" appearance="outline">
-          <mat-label> Password
+          <mat-label> Password 
           </mat-label>
+          
           <input matInput formControlName="password" type="password">
           <mat-error *ngIf="loginForm.controls.password.touched && loginForm.controls.password.invalid">
             <span *ngIf="loginForm.controls.password.errors.required">This field is mandatory.</span>
           </mat-error>
-        </mat-form-field>
+        </mat-form-field><br>
         <button mat-raised-button color="primary" type="submit">Log In</button>
       </form>
     </div>
