@@ -4,7 +4,12 @@ import { RetailerLoginComponent } from './retailer-login/retailer-login.componen
 import { RetailerRegistrationComponent } from './retailer-registration/retailer-registration.component';
 import { RetailerProfileComponent } from './retailer-profile/retailer-profile.component';
 import { AddProductComponent } from './add-product/add-product.component';
-
+import {MatFormFieldModule} from '@angular/material/form-field'
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input'
+import {MatButtonModule} from '@angular/material/button'
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card'
 
 @NgModule({
   declarations: [
@@ -14,7 +19,14 @@ import { AddProductComponent } from './add-product/add-product.component';
     AddProductComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatFormFieldModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatCardModule
   ],
   exports:[
     RetailerLoginComponent,
