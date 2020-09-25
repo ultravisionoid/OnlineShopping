@@ -6,6 +6,10 @@ import {UserProfileComponent} from './user-profile/user-profile.component'
 import {MatFormFieldModule} from '@angular/material/form-field'
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'
+import {MatButtonModule} from '@angular/material/button'
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card'
+
 @NgModule({
   declarations: [
     UserLoginComponent,
@@ -16,7 +20,11 @@ import {MatInputModule} from '@angular/material/input'
     CommonModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatCardModule
   ],
   exports:[
     UserProfileComponent,

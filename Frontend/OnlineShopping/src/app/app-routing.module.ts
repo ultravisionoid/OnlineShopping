@@ -17,11 +17,11 @@ const routes: Routes = [
       path:'userLogin',
       component:UserLoginComponent
     },{
-      path:'userRegistration',
-      component:UserRegistrationComponent
-    },{
       path:'userProfile',
       component:UserProfileComponent
+    },{
+      path:'userRegistration',
+      component:UserRegistrationComponent
     }]
 
   }
