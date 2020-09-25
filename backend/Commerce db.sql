@@ -1,18 +1,7 @@
 create database E_Commerce
 Use E_Commerce
 
---Table For Admin
-create table Admin(
-Admin_Id int Not Null identity(1,1),
-First_Name varchar(50) Not Null,
-Last_Name varchar(50),
-Email varchar(50) Not NULL,
-Mobile_Number varchar(50) Not Null,
-Address varchar(50) Not Null,
-Password varchar(20) Not Null,
-PRIMARY KEY(Admin_Id)
-);
-Drop Table Admin
+
 
 --Table For Users
 
@@ -61,9 +50,10 @@ drop table Products;
 
 --table for wishList
 create table WishList(
+WishList_Id int Not Null identity(1,1),
 User_Id int not null constraint FK_WishList_UID References [User] (User_Id),
 Product_Id int Not null,
-PRIMARY KEY (User_Id),
+PRIMARY KEY (WishList_Id),
 FOREIGN KEY (Product_Id) references Products (Product_Id)
 );
 
