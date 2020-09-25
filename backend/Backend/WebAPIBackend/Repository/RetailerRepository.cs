@@ -42,5 +42,7 @@ namespace WebAPIBackend.Repository
             e_commerce.Entry(retailer).State = System.Data.Entity.EntityState.Modified;
             e_commerce.SaveChanges();
         }
+
+
     }
 }
