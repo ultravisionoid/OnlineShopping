@@ -7,6 +7,8 @@ import {SharedModule} from '../../shared/shared.module'
 import { UserModule } from 'src/app/modules/user/user.module';
 import {MatSidenavModule} from '@angular/material/sidenav'
 import{RetailerModule} from '../../modules/retailer/retailer.module'
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import{RetailerModule} from '../../modules/retailer/retailer.module'
     SharedModule,
     UserModule,
     MatSidenavModule,
-    RetailerModule
+    RetailerModule,
+    ReactiveFormsModule,
+    MatFormFieldModule
   ]
 })
 export class DefaultModule { }
