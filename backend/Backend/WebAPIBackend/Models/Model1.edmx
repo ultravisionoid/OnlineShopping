@@ -63,7 +63,7 @@
           <Property Name="User_Id" Type="int" Nullable="false" />
           <Property Name="Product_Id" Type="int" Nullable="false" />
         </EntityType>
-        <Association Name="FK__WishList__Produc__2F10007B">
+        <Association Name="FK__WishList__Produc__71D1E811">
           <End Role="Products" Type="Self.Products" Multiplicity="1" />
           <End Role="WishList" Type="Self.WishList" Multiplicity="*" />
           <ReferentialConstraint>
@@ -143,7 +143,7 @@
           <EntitySet Name="Retailers" EntityType="Self.Retailers" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="WishList" EntityType="Self.WishList" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK__WishList__Produc__2F10007B" Association="Self.FK__WishList__Produc__2F10007B">
+          <AssociationSet Name="FK__WishList__Produc__71D1E811" Association="Self.FK__WishList__Produc__71D1E811">
             <End Role="Products" EntitySet="Products" />
             <End Role="WishList" EntitySet="WishList" />
           </AssociationSet>
@@ -201,7 +201,7 @@
           <Property Name="Is_Verified" Type="Int32" Nullable="false" />
           <Property Name="Product_Image" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
           <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_PROId" FromRole="Products" ToRole="Orders" />
-          <NavigationProperty Name="WishLists" Relationship="Self.FK__WishList__Produc__2F10007B" FromRole="Products" ToRole="WishList" />
+          <NavigationProperty Name="WishLists" Relationship="Self.FK__WishList__Produc__71D1E811" FromRole="Products" ToRole="WishList" />
           <NavigationProperty Name="Retailer" Relationship="Self.FK_Prod_RetId" FromRole="Products" ToRole="Retailers" />
         </EntityType>
         <EntityType Name="Retailer">
@@ -240,7 +240,7 @@
           <Property Name="WishList_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="User_Id" Type="Int32" Nullable="false" />
           <Property Name="Product_Id" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="Product" Relationship="Self.FK__WishList__Produc__2F10007B" FromRole="WishList" ToRole="Products" />
+          <NavigationProperty Name="Product" Relationship="Self.FK__WishList__Produc__71D1E811" FromRole="WishList" ToRole="Products" />
           <NavigationProperty Name="User" Relationship="Self.FK_WishList_UID" FromRole="WishList" ToRole="User" />
         </EntityType>
         <Association Name="FK_Orders_PROId">
@@ -279,7 +279,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__WishList__Produc__2F10007B">
+        <Association Name="FK__WishList__Produc__71D1E811">
           <End Role="Products" Type="Self.Product" Multiplicity="1" />
           <End Role="WishList" Type="Self.WishList" Multiplicity="*" />
           <ReferentialConstraint>
@@ -335,7 +335,7 @@
             <End Role="User" EntitySet="Users" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__WishList__Produc__2F10007B" Association="Self.FK__WishList__Produc__2F10007B">
+          <AssociationSet Name="FK__WishList__Produc__71D1E811" Association="Self.FK__WishList__Produc__71D1E811">
             <End Role="Products" EntitySet="Products" />
             <End Role="WishList" EntitySet="WishLists" />
           </AssociationSet>

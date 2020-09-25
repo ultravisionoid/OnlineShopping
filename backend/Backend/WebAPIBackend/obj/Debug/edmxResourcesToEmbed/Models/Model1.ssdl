@@ -58,7 +58,7 @@
     <Property Name="User_Id" Type="int" Nullable="false" />
     <Property Name="Product_Id" Type="int" Nullable="false" />
   </EntityType>
-  <Association Name="FK__WishList__Produc__2F10007B">
+  <Association Name="FK__WishList__Produc__71D1E811">
     <End Role="Products" Type="Self.Products" Multiplicity="1" />
     <End Role="WishList" Type="Self.WishList" Multiplicity="*" />
     <ReferentialConstraint>
@@ -138,7 +138,7 @@
     <EntitySet Name="Retailers" EntityType="Self.Retailers" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="WishList" EntityType="Self.WishList" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK__WishList__Produc__2F10007B" Association="Self.FK__WishList__Produc__2F10007B">
+    <AssociationSet Name="FK__WishList__Produc__71D1E811" Association="Self.FK__WishList__Produc__71D1E811">
       <End Role="Products" EntitySet="Products" />
       <End Role="WishList" EntitySet="WishList" />
     </AssociationSet>
