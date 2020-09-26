@@ -1,2 +1,76 @@
-Frontend\OnlineShopping\node_modules\
-Backend\Backend\Backend\Models\
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+Frontend/OnlineShopping/node_modules/
+Backend/OnlineShopping/BackendWebAPI/E_commerce/Models/
+
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+Backend/jars/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# python venv
+.dqvenv/
+.dqenv/
+__pycache__/
+
+# Spark warehouse
+*.log
+metastore_db/
+spark-warehouse/
+
+# config files details
+metadatadb.json
+sparkconf.json
+
+# Testing files
+dump.*
+Backend/OnlineShopping/BackendWebAPI/.vs/BackendWebAPI/v16/.suo
+Backend/OnlineShopping/BackendWebAPI/E_commerce/bin/E_commerce.dll
+Backend/OnlineShopping/BackendWebAPI/E_commerce/bin/E_commerce.dll.config
+Backend/OnlineShopping/BackendWebAPI/E_commerce/bin/E_commerce.pdb
+Backend/OnlineShopping/BackendWebAPI/E_commerce/obj/Debug/E_commerce.csproj.CoreCompileInputs.cache
+Backend/OnlineShopping/BackendWebAPI/E_commerce/obj/Debug/E_commerce.csproj.FileListAbsolute.txt
+Backend/OnlineShopping/BackendWebAPI/E_commerce/obj/Debug/E_commerce.csprojAssemblyReference.cache
+Backend/OnlineShopping/BackendWebAPI/E_commerce/obj/Debug/E_commerce.dll
+Backend/OnlineShopping/BackendWebAPI/E_commerce/obj/Debug/E_commerce.pdb
+Backend/OnlineShopping/BackendWebAPI/E_commerce/Web.config
