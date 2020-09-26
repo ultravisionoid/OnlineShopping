@@ -1,2 +1,2 @@
 Frontend\OnlineShopping\node_modules\
-backend\Backend\WebAPIBackend\Models
+backend\Backend\WebAPIBackend\Models\

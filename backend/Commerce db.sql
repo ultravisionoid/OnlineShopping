@@ -42,7 +42,6 @@ Product_Price decimal(10,2) Not Null,
 Product_Category varchar(50) not Null,
 Retailer_Id int Not Null constraint FK_Prod_RetId References Retailers (Retailer_Id) on delete cascade,
 Is_Verified int Not null default 0 check(Is_Verified=0 or Is_Verified=1),
-Product_Image Varbinary(max) Not Null,
 PRIMARY KEY (Product_Id),
 );
 
