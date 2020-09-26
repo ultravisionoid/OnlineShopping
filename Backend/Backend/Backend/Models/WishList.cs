@@ -19,6 +19,6 @@ namespace Backend.Models
         public int Product_Id { get; set; }
     
         public virtual Product Product { get; set; }
-        public virtual User User { get; set; }
+        public virtual user user { get; set; }
     }
 }

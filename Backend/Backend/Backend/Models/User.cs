@@ -12,10 +12,10 @@ namespace Backend.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class User
+    public partial class user
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public User()
+        public user()
         {
             this.Orders = new HashSet<Order>();
             this.WishLists = new HashSet<WishList>();
