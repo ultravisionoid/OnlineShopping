@@ -1,4 +1,2 @@
 Frontend\OnlineShopping\node_modules\
-
-Backend/Backend/Backend/Models/
-\Backend\Backend\Backend\Models\
+Backend\Backend\Backend\Models\
