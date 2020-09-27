@@ -10,12 +10,16 @@ import {MatButtonModule} from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card'
 import { RouterModule } from '@angular/router';
+import { WishlistComponent } from './wishlist/wishlist.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
     UserLoginComponent,
     UserProfileComponent,
-    UserRegistrationComponent
+    UserRegistrationComponent,
+    WishlistComponent,
+    CartComponent
   ],
   imports: [
     CommonModule,
