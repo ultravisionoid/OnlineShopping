@@ -1,8 +1,9 @@
 <mat-nav-list>
     <div class="profile">
         <div class="header">
+            <img src="../../../../assets/profilePhoto.jpg" alt="">
             <h2>{{name}}</h2>
-
+           
         </div>    
 
     </div> 
@@ -32,7 +33,7 @@
         <mat-icon>arrow_drop_down</mat-icon>
     </button>
     <br>
-    <button mat-icon-button>
+    <button mat-icon-button *ngIf!="login">
         Logout
         <mat-icon>logout</mat-icon>
     </button>

@@ -10,6 +10,9 @@ export class UserLoginService {
     console.log(data);
     return this.http.post("http://localhost:44339/api/users/login",data);
   }
+  getByid(id){
+    return this.http.get("http://localhost:44339/api/users/"+id);
+  }
 
 
 }
