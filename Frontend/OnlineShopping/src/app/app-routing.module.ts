@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {DefaultComponent} from '../app/layouts/default/default.component'
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { RetailerRegistrationComponent } from './modules/retailer/retailer-registration/retailer-registration.component';
+import { SearchComponent } from './modules/search/search.component';
 import { UserLoginComponent } from './modules/user/user-login/user-login.component';
 import { UserProfileComponent } from './modules/user/user-profile/user-profile.component';
 import { UserRegistrationComponent } from './modules/user/user-registration/user-registration.component';
@@ -30,6 +31,9 @@ const routes: Routes = [
     {
       path:'retailerRegistration',
       component:RetailerRegistrationComponent
+    },{
+      path:"search",
+      component:SearchComponent
     }
   ]
 
