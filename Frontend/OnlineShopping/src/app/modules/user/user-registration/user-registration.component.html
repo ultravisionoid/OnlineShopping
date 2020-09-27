@@ -1,9 +1,13 @@
 <div class="container">
     <h1>User Registration</h1>
     <div class="form-container">
-        <form [formGroup]="userform" >
+        <form [formGroup]="userform" (submit)="submit()">
   <mat-form-field class="form-field" appearance="outline">
-      <input matInput placeholder="Enter Name" formControlName="Name">
+      <input matInput placeholder="Enter First Name" formControlName="First_Name">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="form-field" appearance="outline">
+      <input matInput placeholder="Enter Last Name" formControlName="Last_Name">
   </mat-form-field>
   <br>
   <mat-form-field class="form-field" appearance="outline">
@@ -11,7 +15,7 @@
 </mat-form-field>
 <br>
 <mat-form-field class="form-field" appearance="outline">
-    <input matInput placeholder="Enter Mobile" formControlName="Mobile">
+    <input matInput placeholder="Enter Mobile" formControlName="Mobile_Number">
 </mat-form-field>
 <br>
 <mat-form-field class="form-field" appearance="outline">
@@ -22,7 +26,7 @@
     <input matInput type="password" placeholder="Enter Password" formControlName="Password">
 </mat-form-field>
 <br>
-<button mat-raised-button color="primary" type="submit" [disabled]="userform.invalid" (click)="onRegister()" >Register</button>
+<button mat-raised-button color="primary" type="submit" [disabled]="userform.invalid" type="submit">Register</button>
 </form>
 </div>
 </div>

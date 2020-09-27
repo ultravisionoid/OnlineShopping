@@ -5,10 +5,10 @@
         <mat-form-field class="form-field" appearance="outline">
           <mat-label> E-mail
           </mat-label>
-          <input matInput formControlName="email" required>
-          <mat-error *ngIf="loginForm.controls.email.touched && loginForm.controls.email.invalid">
-            <span *ngIf="loginForm.controls.email.errors.required">This field is mandatory.</span>
-            <span *ngIf="loginForm.controls.email.errors.pattern">This field is invalid.</span>
+          <input matInput formControlName="Email" required>
+          <mat-error *ngIf="loginForm.controls.Email.touched && loginForm.controls.Email.invalid">
+            <span *ngIf="loginForm.controls.Email.errors.required">This field is mandatory.</span>
+            <span *ngIf="loginForm.controls.Email.errors.pattern">This field is invalid.</span>
           </mat-error>
         </mat-form-field><br>
         <label >Password</label>
@@ -17,9 +17,9 @@
           <mat-label> Password 
           </mat-label>
           
-          <input matInput formControlName="password" type="password">
-          <mat-error *ngIf="loginForm.controls.password.touched && loginForm.controls.password.invalid">
-            <span *ngIf="loginForm.controls.password.errors.required">This field is mandatory.</span>
+          <input matInput formControlName="Password" type="password">
+          <mat-error *ngIf="loginForm.controls.Password.touched && loginForm.controls.Password.invalid">
+            <span *ngIf="loginForm.controls.Password.errors.required">This field is mandatory.</span>
           </mat-error>
         </mat-form-field><br>
         <button mat-raised-button color="primary" type="submit">Log In</button> &nbsp;
