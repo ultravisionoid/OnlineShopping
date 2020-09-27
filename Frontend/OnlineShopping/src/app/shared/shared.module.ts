@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button'
 import {MatMenuModule} from '@angular/material/menu'
 import{MatListModule} from '@angular/material/list'
 import { RouterLink, RouterModule } from '@angular/router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     FooterComponent,
@@ -26,7 +27,9 @@ import { RouterLink, RouterModule } from '@angular/router';
     FlexLayoutModule,
     MatMenuModule,
     MatListModule,
-    RouterModule
+    RouterModule,
+    NgbModule
+
     
   ],
   exports:[
