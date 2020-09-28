@@ -27,9 +27,9 @@
                     <mat-icon>person_outline</mat-icon>
                 </button>
                 <mat-menu #menu="matMenu">
-                    <button mat-menu-item *ngIf="login" >Profile</button>
-                    <button mat-menu-item>Login</button>
-                    <button mat-menu-item>
+                    <button mat-menu-item  >Profile</button>
+                    <button mat-menu-item *ngIf="login">Login</button>
+                    <button mat-menu-item *ngIf="login==false">
                         <mat-icon>
                             exit_to_app
                         </mat-icon>

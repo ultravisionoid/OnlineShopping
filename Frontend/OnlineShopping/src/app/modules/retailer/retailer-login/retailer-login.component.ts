@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import{ FormBuilder, FormGroup, Validators,FormControl } from '@angular/forms';
+import { Router } from '@angular/router';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-retailer-login',
@@ -7,9 +10,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RetailerLoginComponent implements OnInit {
 
-  constructor() { }
+  loginForm: FormGroup;
+  constructor( private formBuilder: FormBuilder, private router:Router ,@Inject(DOCUMENT) private _document: Document) { }
+  form: FormGroup; 
 
   ngOnInit(): void {
+    this.loginForm = this.formBuilder.group({
+      Email: [null, [Validators.required]],
+      Password: [null, Validators.required]
+    });
+  }
+  submit(){
+    console.log(this.loginForm.value);
   }
 
 }

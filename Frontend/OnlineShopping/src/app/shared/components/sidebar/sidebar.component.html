@@ -21,9 +21,9 @@
     
     <mat-divider></mat-divider>    
     <mat-menu #menu="matMenu">
-        <button mat-menu-item >Admin login</button>
+        <button mat-menu-item  >Admin login</button>
         <button mat-menu-item routerLink="userLogin">User Login</button>
-        <button mat-menu-item>Retailer Login</button>
+        <button mat-menu-item routerLink="retailerLogin">Retailer Login</button>
     </mat-menu>
 
 
@@ -33,7 +33,7 @@
         <mat-icon>arrow_drop_down</mat-icon>
     </button>
     <br>
-    <button mat-icon-button *ngIf!="login">
+    <button mat-icon-button *ngIf="login==false" (click)="logout()" click >
         Logout
         <mat-icon>logout</mat-icon>
     </button>

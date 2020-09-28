@@ -12,9 +12,20 @@ export class HeaderComponent implements OnInit {
   toggleSideBar(){
    this.toggler.emit();  
   }
+
+  getName(){
+    
+    if(localStorage.getItem("login")===null){
+
+    }
+    else{
+      this.login=JSON.parse(localStorage.getItem("login")) ;
+    }
+    
+  }
   
   ngOnInit() {
-   
+    this.getName();
   }
 
 }

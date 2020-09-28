@@ -10,7 +10,7 @@ import {MatInputModule} from '@angular/material/input'
 import {MatButtonModule} from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card'
-
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     RetailerLoginComponent,
@@ -26,7 +26,8 @@ import {MatCardModule} from '@angular/material/card'
     MatFormFieldModule,
     MatButtonModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule
   ],
   exports:[
     RetailerLoginComponent,

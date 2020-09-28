@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import{ FormBuilder, FormGroup, Validators,FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
 import{UserLoginService} from '../../../services/user/user-login.service'
+import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'app-user-login',
   templateUrl: './user-login.component.html', 
@@ -10,7 +11,7 @@ import{UserLoginService} from '../../../services/user/user-login.service'
 export class UserLoginComponent implements OnInit {
 
   loginForm: FormGroup;
-  constructor( private formBuilder: FormBuilder, private router:Router, private loginService:UserLoginService) { }
+  constructor( private formBuilder: FormBuilder, private router:Router, private loginService:UserLoginService,@Inject(DOCUMENT) private _document: Document) { }
   form: FormGroup;
 
 
@@ -26,7 +27,21 @@ export class UserLoginComponent implements OnInit {
     }
     
     this.loginService.auth(this.loginForm.value).subscribe(data=>{
+      this.loginService.getByid(JSON.stringify(data)).subscribe(user=>{
+        console.log(user["First_name"]);
+        localStorage.setItem("userData",JSON.stringify(user));
+        localStorage.setItem("name",JSON.stringify(user["First_Name"]+" "+user["Last_Name"]));
+        localStorage.setItem("login","false");
+        
+      },(e)=>{
+        console.log(e);
+      })
+
+
       localStorage.setItem("UserId",JSON.stringify(data));
+      localStorage.setItem("login","false");
+      // this._document.defaultView.location.reload()
+      this._document.location.href = '/';
       this.router.navigate(['/']);
     },(e)=>{
       console.log(e);
