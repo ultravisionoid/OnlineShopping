@@ -9,7 +9,7 @@ import {MatSidenavModule} from '@angular/material/sidenav'
 import{RetailerModule} from '../../modules/retailer/retailer.module'
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     
@@ -24,7 +24,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatSidenavModule,
     RetailerModule,
     ReactiveFormsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    NgbModule
   ]
 })
 export class DefaultModule { }
