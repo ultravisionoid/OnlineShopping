@@ -11,6 +11,8 @@ import {MatButtonModule} from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card'
 import { RouterModule } from '@angular/router';
+import{MatSelectModule} from '@angular/material/select';
+
 @NgModule({
   declarations: [
     RetailerLoginComponent,
@@ -27,7 +29,9 @@ import { RouterModule } from '@angular/router';
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
+    MatSelectModule,
     RouterModule
+    
   ],
   exports:[
     RetailerLoginComponent,

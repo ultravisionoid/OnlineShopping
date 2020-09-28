@@ -1,1 +1,40 @@
-<p>add-product works!</p>
+<div class="container">
+    <h1>Add new product</h1>
+<form [formGroup]="productform">
+    <mat-form-field class="form-field" appearance="outline">
+        <mat-label>Retailer Id</mat-label>
+          <input matInput  formControlName="RetailerId">
+      </mat-form-field>
+  <mat-form-field class="form-field" appearance="outline">
+    <mat-label>Product Name</mat-label>
+      <input matInput  formControlName="ProductName">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="form-field" appearance="outline">
+    <mat-label>Description</mat-label>
+    <input matInput  formControlName="ProductDesc">
+</mat-form-field>
+<br>
+<mat-form-field class="form-field" appearance="outline">
+    <mat-label>Price</mat-label>
+    <input matInput  formControlName="ProductPrice">
+</mat-form-field>
+<br>
+<mat-form-field class="form-field" appearance="outline">
+    <mat-label>Category</mat-label>
+  <mat-select formControlName="ProductCategory">
+    <mat-option value="Electronics">Electronics</mat-option>
+    <mat-option value="Smartphone">Smartphones</mat-option>
+    <mat-option value="Footwear">Footwear</mat-option>
+  </mat-select>
+</mat-form-field>
+<br>
+<mat-form-field class="form-field" appearance="outline">
+    <mat-label>Image Url</mat-label>
+      <input matInput  formControlName="ImageURL">
+  </mat-form-field>
+<br>
+<hr>
+<button mat-raised-button color="primary"[disabled]="productform.invalid">Add Product</button>
+</form>
+</div> 

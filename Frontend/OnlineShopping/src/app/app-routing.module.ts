@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {DefaultComponent} from '../app/layouts/default/default.component'
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
+import { AddProductComponent } from './modules/retailer/add-product/add-product.component';
 import { RetailerLoginComponent } from './modules/retailer/retailer-login/retailer-login.component';
 import { RetailerRegistrationComponent } from './modules/retailer/retailer-registration/retailer-registration.component';
 import { SearchComponent } from './modules/search/search.component';
@@ -32,12 +33,18 @@ const routes: Routes = [
     {
       path:'retailerRegistration',
       component:RetailerRegistrationComponent
-    },{
+    },
+    {
       path:"search",
       component:SearchComponent
-    },{
+    },
+    {
       path:"retailerLogin",
       component:RetailerLoginComponent
+    },
+    {
+      path:"productAddition",
+      component:AddProductComponent
     }
   ]
 
