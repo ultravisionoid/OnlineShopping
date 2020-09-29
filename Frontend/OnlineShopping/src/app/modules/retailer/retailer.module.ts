@@ -12,6 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card'
 import { RouterModule } from '@angular/router';
 import{MatSelectModule} from '@angular/material/select';
+import { ShowProductComponent } from './show-product/show-product.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import{MatSelectModule} from '@angular/material/select';
     RetailerRegistrationComponent,
     RetailerProfileComponent,
     AddProductComponent,
+    ShowProductComponent,
   ],
   imports: [
     CommonModule,

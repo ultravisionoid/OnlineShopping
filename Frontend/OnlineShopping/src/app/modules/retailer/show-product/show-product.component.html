@@ -1,0 +1,17 @@
+<div fxflex>
+    <div *ngFor="let Pro of Products">
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img [src]="Pro.Product_Image" alt="Avatar" >
+            <div class="container">
+              <h4><b>{{Pro.Product_Name}}</b></h4> 
+              <p><i><b>{{Pro.Product_Description}}</b></i></p>
+              <p><i><b>{{Pro.Product_Price}}</b></i></p>
+              <button>View Product</button>
+            </div>
+              </div>
+            </div>
+    
+    </div>
+</div>

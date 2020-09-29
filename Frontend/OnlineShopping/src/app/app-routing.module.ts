@@ -5,6 +5,7 @@ import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { AddProductComponent } from './modules/retailer/add-product/add-product.component';
 import { RetailerLoginComponent } from './modules/retailer/retailer-login/retailer-login.component';
 import { RetailerRegistrationComponent } from './modules/retailer/retailer-registration/retailer-registration.component';
+import { ShowProductComponent } from './modules/retailer/show-product/show-product.component';
 import { SearchComponent } from './modules/search/search.component';
 import { UserLoginComponent } from './modules/user/user-login/user-login.component';
 import { UserProfileComponent } from './modules/user/user-profile/user-profile.component';
@@ -45,6 +46,9 @@ const routes: Routes = [
     {
       path:"productAddition",
       component:AddProductComponent
+    },{
+      path:"showProducts",
+      component:ShowProductComponent
     }
   ]
 

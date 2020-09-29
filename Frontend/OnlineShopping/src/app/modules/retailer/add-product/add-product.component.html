@@ -3,26 +3,26 @@
 <form [formGroup]="productform">
     <mat-form-field class="form-field" appearance="outline">
         <mat-label>Retailer Id</mat-label>
-          <input matInput  formControlName="RetailerId">
+          <input matInput  formControlName="Retailer_Id">
       </mat-form-field>
   <mat-form-field class="form-field" appearance="outline">
     <mat-label>Product Name</mat-label>
-      <input matInput  formControlName="ProductName">
+      <input matInput  formControlName="Product_Name">
   </mat-form-field>
   <br>
   <mat-form-field class="form-field" appearance="outline">
     <mat-label>Description</mat-label>
-    <input matInput  formControlName="ProductDesc">
+    <input matInput  formControlName="Product_Description">
 </mat-form-field>
 <br>
 <mat-form-field class="form-field" appearance="outline">
     <mat-label>Price</mat-label>
-    <input matInput  formControlName="ProductPrice">
+    <input matInput  formControlName="Product_Price">
 </mat-form-field>
 <br>
 <mat-form-field class="form-field" appearance="outline">
     <mat-label>Category</mat-label>
-  <mat-select formControlName="ProductCategory">
+  <mat-select formControlName="Product_Category">
     <mat-option value="Electronics">Electronics</mat-option>
     <mat-option value="Smartphone">Smartphones</mat-option>
     <mat-option value="Footwear">Footwear</mat-option>
@@ -31,10 +31,10 @@
 <br>
 <mat-form-field class="form-field" appearance="outline">
     <mat-label>Image Url</mat-label>
-      <input matInput  formControlName="ImageURL">
+      <input matInput  formControlName="Product_Image">
   </mat-form-field>
 <br>
 <hr>
-<button mat-raised-button color="primary"[disabled]="productform.invalid">Add Product</button>
+<button mat-raised-button color="primary"[disabled]="productform.invalid"(click)="submit()" >Add Product</button>
 </form>
 </div> 
