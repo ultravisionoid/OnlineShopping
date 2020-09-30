@@ -29,6 +29,7 @@ export class UserLoginComponent implements OnInit {
     this.loginService.auth(this.loginForm.value).subscribe(data=>{
       this.loginService.getByid(JSON.stringify(data)).subscribe(user=>{
         console.log(user["First_name"]);
+        localStorage.setItem("data",JSON.stringify(data));
         localStorage.setItem("userData",JSON.stringify(user));
         localStorage.setItem("name",JSON.stringify(user["First_Name"]+" "+user["Last_Name"]));
         localStorage.setItem("login","false");
@@ -42,10 +43,10 @@ export class UserLoginComponent implements OnInit {
       localStorage.setItem("login","false");
       // this._document.defaultView.location.reload()
       this._document.location.href = '/';
-      this.router.navigate(['/']);
+      // this.router.navigate(['/']);
     },(e)=>{
       console.log(e);
-      alert("Wrong usernam/password");
+      alert("Wrong email/password");
     })
 
     console.log(this.loginForm.value);

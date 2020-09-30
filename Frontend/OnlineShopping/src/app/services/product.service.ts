@@ -13,4 +13,11 @@ export class ProductService {
   showProduct(){
     return this.http.get<Products[]>("http://localhost:44339/api/products/getall");
   }
+  productbyId(id){
+    return this.http.get<Products>("http://localhost:44339/api/products/"+id);
+  }
+  getbyRetailer(id){
+    return this.http.post<Products[]>("http://localhost:44339/api/products/retailer",id);
+  }
+
 }

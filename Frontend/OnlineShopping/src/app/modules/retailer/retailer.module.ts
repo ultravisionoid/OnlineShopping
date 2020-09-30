@@ -13,6 +13,10 @@ import {MatCardModule} from '@angular/material/card'
 import { RouterModule } from '@angular/router';
 import{MatSelectModule} from '@angular/material/select';
 import { ShowProductComponent } from './show-product/show-product.component';
+import { ProductPageComponent } from './product-page/product-page.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,7 @@ import { ShowProductComponent } from './show-product/show-product.component';
     RetailerProfileComponent,
     AddProductComponent,
     ShowProductComponent,
+    ProductPageComponent,
   ],
   imports: [
     CommonModule,
@@ -32,7 +37,10 @@ import { ShowProductComponent } from './show-product/show-product.component';
     MatToolbarModule,
     MatCardModule,
     MatSelectModule,
-    RouterModule
+    RouterModule,
+    MatListModule,
+    NgbModule,
+    MatIconModule
     
   ],
   exports:[

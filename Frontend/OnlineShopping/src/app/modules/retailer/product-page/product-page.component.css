@@ -1,0 +1,24 @@
+
+.container{
+    margin-top: 100px;
+}
+.col-md-7 h2,h1{
+    color: #555;
+}
+.price{
+    color: #FE980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: halvetica;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .5s; 
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }

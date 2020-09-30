@@ -2,7 +2,7 @@
     <h1>Retailer Registration</h1>
     <h2>Become our partner and go global</h2>
     <div class="form-container">
-        <form [formGroup]="retailForm" >
+        <form [formGroup]="retailForm" (submit)="onretailRegister()">
     <mat-form-field class="form-field" appearance="outline">
         <input matInput placeholder="Enter Organisation Name" formControlName="First_Name">
     </mat-form-field>
@@ -16,7 +16,7 @@
 </mat-form-field>
 <br>
 <mat-form-field class="form-field" appearance="outline">
-    <input matInput placeholder="Enter Mobile" formControlName="Mobile">
+    <input matInput placeholder="Enter Mobile" formControlName="Mobile_Number">
 </mat-form-field>
 <br>
 <mat-form-field class="form-field" appearance="outline">
@@ -27,7 +27,7 @@
     <input matInput type="password" placeholder="Enter Password" formControlName="Password">
 </mat-form-field>
 <br>
-<button mat-raised-button color="primary" type="submit" [disabled]="retailForm.invalid" (click)="onretailRegister()" >Register</button>
+<button mat-raised-button color="primary" type="submit" [disabled]="retailForm.invalid"  >Register</button>
 </form>
 </div>
 </div>

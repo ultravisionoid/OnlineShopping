@@ -1,10 +1,8 @@
 <div class="container">
     <h1>Add new product</h1>
+    <h2>Retailer ID:{{productform.value["Retailer_Id"]}}</h2>
 <form [formGroup]="productform">
-    <mat-form-field class="form-field" appearance="outline">
-        <mat-label>Retailer Id</mat-label>
-          <input matInput  formControlName="Retailer_Id">
-      </mat-form-field>
+    
   <mat-form-field class="form-field" appearance="outline">
     <mat-label>Product Name</mat-label>
       <input matInput  formControlName="Product_Name">
