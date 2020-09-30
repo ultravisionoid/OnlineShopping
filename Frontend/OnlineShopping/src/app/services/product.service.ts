@@ -19,5 +19,8 @@ export class ProductService {
   getbyRetailer(id){
     return this.http.post<Products[]>("http://localhost:44339/api/products/retailer",id);
   }
+  deleteProduct(id){
+    return this.http.delete<any>("http://localhost:44339/api/products/"+id)
+  }
 
 }

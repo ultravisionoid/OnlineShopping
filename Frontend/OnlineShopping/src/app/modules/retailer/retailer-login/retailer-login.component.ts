@@ -3,6 +3,8 @@ import{ FormBuilder, FormGroup, Validators,FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import {RetailerLoginService} from "../../../services/retailer/retailer-login.service"
+
+
 @Component({
   selector: 'app-retailer-login',
   templateUrl: './retailer-login.component.html',
@@ -25,10 +27,19 @@ export class RetailerLoginComponent implements OnInit {
     console.log(this.loginForm.value);
 
     this.loginService.auth(this.loginForm.value).subscribe(data=>{
+      this.loginService.getById(JSON.stringify(data)).subscribe(user=>{
+        localStorage.setItem("name",JSON.stringify(user));
+
+      })
+
+
+
+
       console.log(data);
       localStorage.setItem("retailerData",JSON.stringify(data));
       localStorage.setItem("name",JSON.stringify(data["First_Name"]+" "+data["Last_Name"]));
         localStorage.setItem("login","false");
+        this._document.location.href = '/retailerProfile';
       this.router.navigate(["/retailerProfile"]);      
     },(e)=>{
       console.log(e);

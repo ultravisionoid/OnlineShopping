@@ -27,7 +27,7 @@ export class AddProductComponent implements OnInit {
   submit(){
     this.productService.addProduct(this.productform.value).subscribe((data)=>{
       console.log(data);
-      this.router.navigate(["/showProducts"]);
+      this.router.navigate(["/retailerProfile"]);
     },(e)=>{
       console.log(e);
     })

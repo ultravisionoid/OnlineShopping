@@ -1,1 +1,27 @@
-<p>retailer-profile works!</p>
+<button routerLink="/productAddition" class="btn btn-warning" style="float: right;" >Add Product</button>
+<br>
+<table class="table table-hover">
+    <thead>
+        <tr>
+        <th>Product Id</th>
+        <th>name</th>
+        <th>description</th>
+        <th>image</th>
+        <th>price</th>
+        <th>category</th>
+        <th>delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of products">
+            <th>{{p.Product_Id}}</th>
+            <th>{{p.Product_Name}}</th>
+            <th>{{p.Product_Description}}</th>
+            <th><img [src]="p.Product_Image" alt="" width="100" height=100></th>
+            <th>{{p.Product_Price}}</th>
+            <th>{{p.Product_Category}}</th>
+            <th><button class="btn btn-danger"(click)="delete(p.Product_Id)">X</button></th>
+        </tr>
+        
+    </tbody>
+</table>

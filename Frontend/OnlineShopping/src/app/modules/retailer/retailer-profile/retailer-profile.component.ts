@@ -28,5 +28,11 @@ export class RetailerProfileComponent implements OnInit {
     })
     // this.product.getbyRetailer()
   }
-
+  delete(id){
+    this.product.deleteProduct(id).subscribe(data=>{
+      console.log(data)
+    },(e)=>{
+      console.log(e);
+    })
+  }
 }
