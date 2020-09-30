@@ -17,6 +17,7 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MatIconModule } from '@angular/material/icon';
     AddProductComponent,
     ShowProductComponent,
     ProductPageComponent,
+    CategoryComponent,
   ],
   imports: [
     CommonModule,
