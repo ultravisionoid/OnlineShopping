@@ -34,6 +34,7 @@ export class UserLoginComponent implements OnInit {
         localStorage.setItem("name",JSON.stringify(user["First_Name"]+" "+user["Last_Name"]));
         localStorage.setItem("login","false");
         
+        localStorage.setItem("compareItems","0");
       },(e)=>{
         console.log(e);
       })
@@ -41,6 +42,8 @@ export class UserLoginComponent implements OnInit {
 
       localStorage.setItem("UserId",JSON.stringify(data));
       localStorage.setItem("login","false");
+      
+      localStorage.setItem("person","user");
       // this._document.defaultView.location.reload()
       this._document.location.href = '/';
       // this.router.navigate(['/']);

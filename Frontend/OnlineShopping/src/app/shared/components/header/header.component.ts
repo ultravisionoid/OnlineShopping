@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   login:boolean=false;
-  constructor() { }
+  constructor(private router:Router) { }
   @Output() toggler:EventEmitter<any>=new EventEmitter();
   toggleSideBar(){
    this.toggler.emit();  
@@ -23,9 +24,22 @@ export class HeaderComponent implements OnInit {
     }
     
   }
-  
+  person:string;
   ngOnInit() {
     this.getName();
+    this.person=localStorage.getItem("person");
+  }
+  Profile(){
+    if(this.person=="user"){
+      this.router.navigate(["/userProfile"]);
+    }
+    else if(this.person=="retailer"){
+      this.router.navigate(["/retailerProfile"]);
+      
+    }
+    else if(this.person=="admin"){
+      this.router.navigate(["/adminProfile"]);
+    }
   }
 
 }

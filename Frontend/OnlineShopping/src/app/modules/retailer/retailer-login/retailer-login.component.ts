@@ -38,8 +38,9 @@ export class RetailerLoginComponent implements OnInit {
       console.log(data);
       localStorage.setItem("retailerData",JSON.stringify(data));
       localStorage.setItem("name",JSON.stringify(data["First_Name"]+" "+data["Last_Name"]));
-        localStorage.setItem("login","false");
-        this._document.location.href = '/retailerProfile';
+      localStorage.setItem("login","false");
+      localStorage.setItem("person","retailer");
+      this._document.location.href = '/retailerProfile';
       this.router.navigate(["/retailerProfile"]);      
     },(e)=>{
       console.log(e);

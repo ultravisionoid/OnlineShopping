@@ -1,43 +1,37 @@
-
+<div class="float-container">
+    <div class="float-child">
+        
 <mat-toolbar color="primary">
-   <mat-toolbar-row>
-       <button mat-icon-button (click)="toggleSideBar()">
-           <mat-icon>menu</mat-icon>
-       </button>
-       <span routerLink="">App Name</span>
-       <div fxFlex fxLayout='row' fxLayoutAlign="flex-end" class="rightElements">
-           <ul  fxLayout="row" fxLayoutGap=20px>
-               <li>
-                   <button mat-icon-button>
-                       <mat-icon routerLink="search">search</mat-icon>
-                   </button>
-               </li>
-            <li>
-                <button mat-icon-button >
-                    <mat-icon>bookmark_border</mat-icon>
-                </button>
-            </li>
-            <li>
-                <button mat-icon-button>
-                    <mat-icon>shopping_cart</mat-icon>
-                </button>
-            </li>
-            <!-- <li>
-                <button mat-button [matMenuTriggerFor]='menu'>
-                    <mat-icon>person_outline</mat-icon>
-                </button>
-                <mat-menu #menu="matMenu">
-                    <button mat-menu-item  >Profile</button>
-                    <button mat-menu-item *ngIf="login">Login</button>
-                    <button mat-menu-item *ngIf="login==false">
-                        <mat-icon>
-                            exit_to_app
-                        </mat-icon>
-                        Sign out
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span routerLink="">App Name</span>
+        <div fxFlex fxLayout='row' fxLayoutAlign="flex-end" class="rightElements">
+            <ul  fxLayout="row" fxLayoutGap=20px>
+                <li>
+                    <button mat-icon-button>
+                        <mat-icon routerLink="search">search</mat-icon>
                     </button>
-                </mat-menu>
-            </li> -->
-           </ul>
-       </div>
-   </mat-toolbar-row>
-</mat-toolbar>
+                </li>
+             <li>
+                 <button mat-icon-button >
+                     <mat-icon>bookmark_border</mat-icon>
+                 </button>
+             </li>
+             <li>
+                 <button mat-icon-button>
+                     <mat-icon>shopping_cart</mat-icon>
+                 </button>
+             </li>
+             <li>
+                 <button mat-icon-button (click)="Profile()"  >
+                     <mat-icon>person</mat-icon>
+                 </button>
+             </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+ </mat-toolbar>
+    </div>
+</div>

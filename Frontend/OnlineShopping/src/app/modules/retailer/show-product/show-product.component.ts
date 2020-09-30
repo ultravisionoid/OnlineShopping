@@ -27,5 +27,14 @@ export class ShowProductComponent implements OnInit {
     localStorage.setItem("Product",JSON.stringify(Pro));
     this.router.navigate(["/Product"]);
   }
+  sortName(){
+    
+    this.Products=this.Products.sort((a,b)=>a["Product_Name"]>b["Product_Name"]?1:-1);
+
+  }
+  sortPrice(){
+    this.Products=this.Products.sort((a,b)=>a["Product_Price"]>b["Product_Price"]?1:-1);
+
+  }
 
 }

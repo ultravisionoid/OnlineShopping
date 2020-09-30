@@ -18,6 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { CategoryComponent } from './category/category.component';
+import { CompareComponent } from './compare/compare.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { CategoryComponent } from './category/category.component';
     ShowProductComponent,
     ProductPageComponent,
     CategoryComponent,
+    CompareComponent,
   ],
   imports: [
     CommonModule,

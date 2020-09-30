@@ -1,1 +1,22 @@
-<p>category works!</p>
+<p class="h4">Sort by:</p>
+<button class="btn btn-danger" (click)="sortName()">Name</button>&nbsp;&nbsp;
+<button class="btn btn-danger" (click)="sortPrice()">Price</button>
+
+<br>
+<br>
+<div *ngFor="let Pro of Products">
+    <div class="row">
+        <div class="column">
+            <div class="card">
+            <img [src]="Pro.Product_Image" >
+        <div class="container">
+            <h4><b>{{Pro.Product_Name}}</b></h4> 
+            <p><i><b>{{Pro.Product_Description}}</b></i></p>
+            <p><i><b>{{Pro.Product_Price}}</b></i></p>
+            <button class="btn btn-warning" (click)="viewProduct(Pro)" >View Product</button>
+        </div>
+            </div>
+        </div>
+
+</div>
+

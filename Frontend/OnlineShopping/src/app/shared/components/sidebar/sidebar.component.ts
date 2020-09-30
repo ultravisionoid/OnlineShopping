@@ -2,6 +2,7 @@ import { Component, OnInit, Inject  } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { User } from 'src/app/models/User';
 import { DOCUMENT } from '@angular/common';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
@@ -14,7 +15,7 @@ export class SidebarComponent implements OnInit {
   // name:any;
   name="Aayush"
   refer:User;
-  constructor(@Inject(DOCUMENT) private _document: Document) { }
+  constructor(@Inject(DOCUMENT) private _document: Document,private router:Router) { }
   getName(){
     if(localStorage.getItem("name")===null){
 
@@ -38,10 +39,16 @@ export class SidebarComponent implements OnInit {
   logout(){
     localStorage.setItem("login","true");
     localStorage.setItem('name','');
+    
+    localStorage.setItem("person","");
     this._document.location.href = '/';
   }
   cate(c:string){
     localStorage.setItem("category",c);
+
+    
+    this._document.location.href = '/category';
+    this.router.navigate(['/category'])
   }
 
 }

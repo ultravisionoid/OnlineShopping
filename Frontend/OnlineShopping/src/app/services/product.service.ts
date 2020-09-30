@@ -22,5 +22,8 @@ export class ProductService {
   deleteProduct(id){
     return this.http.delete<any>("http://localhost:44339/api/products/"+id)
   }
+  getByCategory(id){
+    return this.http.post<Products[]>("http://localhost:44339/api/products/Category/",id);
+  }
 
 }
