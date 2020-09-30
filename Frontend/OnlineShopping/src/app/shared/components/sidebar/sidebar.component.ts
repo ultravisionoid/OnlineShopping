@@ -40,5 +40,8 @@ export class SidebarComponent implements OnInit {
     localStorage.setItem('name','');
     this._document.location.href = '/';
   }
+  cate(c:string){
+    localStorage.setItem("category",c);
+  }
 
 }
