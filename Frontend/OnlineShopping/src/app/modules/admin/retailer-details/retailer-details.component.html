@@ -1,0 +1,46 @@
+
+<button class="button button2" (click)="addRetailer()">Add Retailer</button> &nbsp;&nbsp;
+<br>
+<br>
+<h3>Retailers Details</h3>
+<br>
+
+<table align="center" border="4" style="margin-left: 2%;" cellspacing="10" cellpadding="10">
+<tr>
+    <th style="text-align: center;">
+        First Name
+    </th>
+    <th style="text-align: center;">
+        Last Name
+    </th>
+    
+    <th style="text-align: center;">
+        Email ID
+    </th>
+    <th style="text-align: center;">
+        Mobile Number
+    </th>
+    <th style="text-align: center;">
+        Address
+    </th>
+    <th style="text-align: center;">
+        Total Revenue
+    </th>
+
+    <th style="text-align: center;">
+        Delete
+    </th>
+</tr>
+<tr *ngFor="let i of listofretailers">
+    <td>{{i.First_Name}}</td>
+    <td>{{i.Last_Name}}</td>
+    <td>{{i.Email}}</td>
+    <td>{{i.Mobile_Number}}</td>
+    <td>{{i.Address}}</td>
+   <td>{{i.Total_Revenue}}</td>
+    <td><button class="button button3" (click)="deleteRetailer(i.Retailer_Id)" >X</button></td>
+    
+
+
+</tr>
+</table>

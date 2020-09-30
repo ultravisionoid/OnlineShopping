@@ -1,0 +1,29 @@
+
+<h3>Products Details</h3>
+<br>
+
+<table align="center" border="4" style="margin-left: 2%;" cellspacing="10" cellpadding="10" >
+<tr>
+    <th style="text-align: center;">
+        Product Name
+    </th>
+    <th style="text-align: center;">
+        Product category
+    </th >
+    
+    <th style="text-align: center;">
+        product Price
+    </th>
+
+    <th style="text-align: center;">
+        Approve
+    </th>
+</tr>
+<tr *ngFor="let i of listofproducts">
+    <td>{{i.Product_Name}}</td>
+    <td>{{i.Product_Category}}</td>
+    <td>{{i.Product_Price}}</td>
+    <td><button class="btn btn-danger btn-lg" (click)="getVerified(i)" >X</button></td>
+
+</tr>
+</table>

@@ -14,6 +14,7 @@ import { UserRegistrationComponent } from './modules/user/user-registration/user
 import {RetailerProfileComponent} from './modules/retailer/retailer-profile/retailer-profile.component';
 import { CategoryComponent } from './modules/retailer/category/category.component';
 import { CompareComponent } from './modules/retailer/compare/compare.component';
+import { RetailerDetailsComponent } from './modules/admin/retailer-details/retailer-details.component';
 const routes: Routes = [
   {
     path:'',
@@ -64,6 +65,9 @@ const routes: Routes = [
     },{
       path:"compare",
       component:CompareComponent
+    },{
+      path:"retailerdetails",
+      component:RetailerDetailsComponent
     }
   ]
 

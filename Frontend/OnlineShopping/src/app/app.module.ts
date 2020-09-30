@@ -9,6 +9,10 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './modules/search/search.component';
 import { CarosouelComponent } from './modules/caro/carosouel/carosouel.component';
+import { AdminLoginComponent } from './modules/admin/admin-login/admin-login.component';
+import { AdminApproveComponent } from './modules/admin/admin-approve/admin-approve.component';
+import { RetailerDetailsComponent } from './modules/admin/retailer-details/retailer-details.component';
+import { ProductDetailsComponent } from './modules/admin/product-details/product-details.component';
 
 
 @NgModule({
@@ -16,6 +20,10 @@ import { CarosouelComponent } from './modules/caro/carosouel/carosouel.component
     AppComponent,
     SearchComponent,
     CarosouelComponent,
+    AdminLoginComponent,
+    AdminApproveComponent,
+    RetailerDetailsComponent,
+    ProductDetailsComponent,
    
   ],
   imports: [
