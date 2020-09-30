@@ -8,12 +8,14 @@ import {DefaultModule} from './layouts/default/default.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './modules/search/search.component';
+import { CategoryComponent } from './retailer/category/category.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
+    CategoryComponent,
    
   ],
   imports: [
