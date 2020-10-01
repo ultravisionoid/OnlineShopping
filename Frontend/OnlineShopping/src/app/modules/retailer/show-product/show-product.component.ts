@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ProductService} from "../../../services/product.service";
 import {Products} from "../../../models/Products";
 import { Router } from '@angular/router';
-
+import {Ng2SearchPipeModule} from 'ng2-search-filter';
 @Component({
   selector: 'app-show-product',
   templateUrl: './show-product.component.html',
@@ -10,7 +10,8 @@ import { Router } from '@angular/router';
 })
 export class ShowProductComponent implements OnInit {
 
-  constructor(private productService:ProductService ,private router:Router) { }
+  term:string;
+  constructor(private productService:ProductService ,private router:Router ) { }
 
   Products:Products[];
   ngOnInit(): void {

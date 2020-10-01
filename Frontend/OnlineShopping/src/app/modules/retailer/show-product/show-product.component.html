@@ -1,3 +1,7 @@
+<div>
+  <input class="search" type="text" placeholder="All your search ends here"[(ngModel)]="term">
+</div>
+
 <p class="h4">Sort by:</p>
 <button class="btn btn-danger" (click)="sortName()">Name</button>&nbsp;&nbsp;
 <button class="btn btn-danger" (click)="sortPrice()">Price</button>
@@ -5,7 +9,7 @@
 <br>
 <br>
 <div fxflex>
-    <div *ngFor="let Pro of Products">
+    <div *ngFor="let Pro of Products|filter:term">
         <div class="row">
             <div class="column">
               <div class="card">

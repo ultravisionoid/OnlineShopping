@@ -19,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { CategoryComponent } from './category/category.component';
 import { CompareComponent } from './compare/compare.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { CompareComponent } from './compare/compare.component';
     RouterModule,
     MatListModule,
     NgbModule,
-    MatIconModule
+    MatIconModule,
+    Ng2SearchPipeModule
     
   ],
   exports:[
