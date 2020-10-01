@@ -15,6 +15,13 @@ import {RetailerProfileComponent} from './modules/retailer/retailer-profile/reta
 import { CategoryComponent } from './modules/retailer/category/category.component';
 import { CompareComponent } from './modules/retailer/compare/compare.component';
 import { RetailerDetailsComponent } from './modules/admin/retailer-details/retailer-details.component';
+import { AdminLoginComponent } from './modules/admin/admin-login/admin-login.component';
+import { ProductDetailsComponent } from './modules/admin/product-details/product-details.component';
+import { AdminApproveComponent } from './modules/admin/admin-approve/admin-approve.component';
+import { HomePageComponent } from './modules/admin/home-page/home-page.component';
+import { WishlistComponent } from './modules/user/wishlist/wishlist.component';
+import { CartComponent } from './modules/user/cart/cart.component';
+import { ForgotPasswordComponent } from './modules/user/forgot-password/forgot-password.component';
 const routes: Routes = [
   {
     path:'',
@@ -68,6 +75,27 @@ const routes: Routes = [
     },{
       path:"retailerdetails",
       component:RetailerDetailsComponent
+    },{
+      path:"adminLogin",
+      component:AdminLoginComponent
+    },{
+      path:"productdetails",
+      component:ProductDetailsComponent
+    },{
+      path:"approverequests",
+      component:AdminApproveComponent
+    },{
+      path:"homepage",
+      component:HomePageComponent
+    },{
+      path:"wishlist",
+      component:WishlistComponent
+    },{
+      path:"cart",
+      component:CartComponent
+    },{
+      path:"forgotpassword",
+      component:ForgotPasswordComponent
     }
   ]
 

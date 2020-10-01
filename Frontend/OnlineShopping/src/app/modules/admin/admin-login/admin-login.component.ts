@@ -23,9 +23,10 @@ export class AdminLoginComponent implements OnInit {
   }
 
 submit(){
+  console.log(this.loginForm.value)
   if(this.loginForm.value["Email"]=="sai@gmail.com" && this.loginForm.value["Password"]=="sai")
   {
-    this.router.navigate(['retailerdetails']);
+    this.router.navigate(['homepage']);
   }
   else{
     alert("Wrong Email/Password")

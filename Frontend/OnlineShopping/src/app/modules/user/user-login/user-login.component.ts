@@ -3,6 +3,8 @@ import{ FormBuilder, FormGroup, Validators,FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
 import{UserLoginService} from '../../../services/user/user-login.service'
 import { DOCUMENT } from '@angular/common';
+import { stringToKeyValue } from '@angular/flex-layout/extended/typings/style/style-transforms';
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 @Component({
   selector: 'app-user-login',
   templateUrl: './user-login.component.html', 
@@ -14,7 +16,7 @@ export class UserLoginComponent implements OnInit {
   constructor( private formBuilder: FormBuilder, private router:Router, private loginService:UserLoginService,@Inject(DOCUMENT) private _document: Document) { }
   form: FormGroup;
 
-
+abc:any;
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
       Email: [null, [Validators.required]],
@@ -25,13 +27,15 @@ export class UserLoginComponent implements OnInit {
     if (!this.loginForm.valid) {
       return;
     }
-    
+   
     this.loginService.auth(this.loginForm.value).subscribe(data=>{
       this.loginService.getByid(JSON.stringify(data)).subscribe(user=>{
         console.log(user["First_name"]);
         localStorage.setItem("data",JSON.stringify(data));
         localStorage.setItem("userData",JSON.stringify(user));
-        localStorage.setItem("name",JSON.stringify(user["First_Name"]+" "+user["Last_Name"]));
+        this.abc=JSON.parse(localStorage.getItem("User_Id"));
+        console.log(this.abc);
+        localStorage.setItem("name",JSON.stringify(this.abc["First_Name"]+" "+this.abc["Last_Name"]));
         localStorage.setItem("login","false");
         
         localStorage.setItem("compareItems","0");

@@ -31,7 +31,7 @@ export class ProductService {
     return this.http.post<Products[]>("http://localhost:44339/api/products/Category/",id);
   }
 
-  baseUrl:string="http://localhost:61872/api/products";
+  baseUrl:string="http://localhost:44339/api/products";
   getVerifiedProducts(resource:string){
     return this.http.get<Products[]>(this.baseUrl+"\\"+resource,this.httpOptions);
   }

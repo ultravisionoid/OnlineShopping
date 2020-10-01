@@ -1,4 +1,4 @@
-[24:37, 10/1/2020] Bhagya Sri Lti: <div fxflex>
+ <div fxflex>
     <div *ngFor="let wl of wishlist">
         <div class="row">
             <div class="column">
@@ -9,7 +9,7 @@
               <h4><b>{{wl.Product_Name}}</b></h4> 
               <p><i><b>{{wl.Product_Description}}</b></i></p>
               <p><i><b>{{wl.Product_Price}}</b></i></p>
-              <button class="btn btn-success" >Add to cart</button>
+              <!-- <button class="btn btn-success" >Add to cart</button> -->
               <button class="btn btn-danger" (click)="deleteItem(wl.WishList_Id)"  >Delete from wishlist</button>
               
             </div>

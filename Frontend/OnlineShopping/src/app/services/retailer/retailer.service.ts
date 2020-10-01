@@ -14,7 +14,7 @@ export class RetailerService {
   }
   constructor(private http:HttpClient) { }
 
-  baseUrl:string="http://localhost:61872/api/retailer";
+  baseUrl:string="http://localhost:44339/api/retailer";
 
   getAllRetailers(resource:string){
     return this.http.get<Retailer[]>(this.baseUrl+"\\"+resource,this.httpOptions);

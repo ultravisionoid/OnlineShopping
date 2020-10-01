@@ -52,6 +52,7 @@ import { CompareComponent } from './compare/compare.component';
     RetailerRegistrationComponent,
     RetailerProfileComponent,
     AddProductComponent,
+    ShowProductComponent
 
   ]
 })

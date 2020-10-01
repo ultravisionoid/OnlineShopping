@@ -25,6 +25,9 @@ deleteItem(id){
   return this.http.delete<Wishlist>(this.baseUrl+"\\"+id,this.httpOptions);
 
 }
+addItem(id){
+  return this.http.post<Wishlist>(this.baseUrl+"/AddtoWishList/",JSON.stringify(id),this.httpOptions);
+}
 
 
   

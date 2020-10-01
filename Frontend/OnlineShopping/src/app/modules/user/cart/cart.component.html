@@ -1,1 +1,37 @@
-<p>cart works!</p>
+<div fxflex>
+    <div *ngFor="let Pro of listoforders">
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img [src]="Pro.Product_Image" alt="Avatar" >
+            <div class="container">
+              <h4><b>{{Pro.Product_Name}}</b></h4> 
+              <p><i><b>{{Pro.Product_Description}}</b></i></p>
+              <p><i><b>{{Pro.Product_Price}}</b></i></p>
+              <p><i><b>{{Pro.Total_Price}}</b></i></p>
+              <button  class="btn btn-warning"(click)="viewProduct(Pro)" >View Product</button>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              <button type="button" class="btn btn-danger" (click)="deleteorder(Pro.Order_Id)" value="delete">delete</button>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+
+
+<input type="text"  [value]=Pro.Product_Quantity  style="width: 30px;">
+&nbsp;
+<button type="button" class="btn btn-danger" value="-" (click)="minus(Pro)" >-</button>
+&nbsp;
+
+<button type="button" class="btn btn-success" value="+" (click)="plus(Pro)">+</button>
+
+            </div>
+              </div>
+            </div>
+    
+    </div>
+</div>
+
+
+

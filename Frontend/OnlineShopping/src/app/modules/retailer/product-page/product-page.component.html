@@ -4,16 +4,20 @@
         <img class="d-block w-100 zoom" [src]='product["Product_Image"]'>
       </div>
       <div class="col-md-7">      
-        <h1 class="text-center"><b>{{product["Product_Name"]|uppercase}}</b></h1>
+        <h1 class="text-center"><b>{{product["Product_Name"]|uppercase}}</b>
+          <button mat-button (click)="speak()">
+            <mat-icon>volume_up</mat-icon>
+        </button>
+        </h1>
         <hr>
         <h2><b>Price:</b> <p class="price">$<i> {{product["Product_Price"]}}</i></p> </h2>
          
         <h2><b>Availablity:</b> In Stock</h2>
         <h2><b>Category:</b> {{product["Product_Category"]}}</h2>
-        <h2><b>Description:{{product["Product_Name"]}} </b></h2>
+        <h2><b>Description:{{product["Product_Description"]}} </b></h2>
         <hr>&nbsp;
-        <button mat-stroked-button color="primary"><mat-icon>shopping_cart</mat-icon>Add to Cart</button>&nbsp;&nbsp;
-        <button mat-stroked-button color="accent"><mat-icon>favorite</mat-icon> Wishlist</button>&nbsp;&nbsp;
+        <button mat-stroked-button color="primary" (click)="addtoorders()"><mat-icon>shopping_cart</mat-icon>Add to Cart</button>&nbsp;&nbsp;
+        <button mat-stroked-button color="accent" (click)="addtowishlist()"><mat-icon>favorite</mat-icon> Wishlist</button>&nbsp;&nbsp;
         <button mat-stroked-button color="warn" (click)="Compare()"><mat-icon>check_box</mat-icon>Add to Compare</button>&nbsp;&nbsp;
       </div>
     </div>

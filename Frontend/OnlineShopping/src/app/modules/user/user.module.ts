@@ -4,7 +4,7 @@ import {UserLoginComponent} from './user-login/user-login.component';
 import {UserRegistrationComponent} from './user-registration/user-registration.component';
 import {UserProfileComponent} from './user-profile/user-profile.component'
 import {MatFormFieldModule} from '@angular/material/form-field'
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'
 import {MatButtonModule} from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -12,6 +12,8 @@ import {MatCardModule} from '@angular/material/card'
 import { RouterModule } from '@angular/router';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { CartComponent } from './cart/cart.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { CartComponent } from './cart/cart.component';
     UserProfileComponent,
     UserRegistrationComponent,
     WishlistComponent,
-    CartComponent
+    CartComponent,
+    ForgotPasswordComponent,
   ],
   imports: [
     CommonModule,
@@ -30,7 +33,8 @@ import { CartComponent } from './cart/cart.component';
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ],
   exports:[
     UserProfileComponent,

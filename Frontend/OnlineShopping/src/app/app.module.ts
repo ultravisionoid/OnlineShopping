@@ -13,7 +13,11 @@ import { AdminLoginComponent } from './modules/admin/admin-login/admin-login.com
 import { AdminApproveComponent } from './modules/admin/admin-approve/admin-approve.component';
 import { RetailerDetailsComponent } from './modules/admin/retailer-details/retailer-details.component';
 import { ProductDetailsComponent } from './modules/admin/product-details/product-details.component';
-
+import { HomePageComponent } from './modules/admin/home-page/home-page.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -24,6 +28,7 @@ import { ProductDetailsComponent } from './modules/admin/product-details/product
     AdminApproveComponent,
     RetailerDetailsComponent,
     ProductDetailsComponent,
+    HomePageComponent,
    
   ],
   imports: [
@@ -32,7 +37,13 @@ import { ProductDetailsComponent } from './modules/admin/product-details/product
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    RouterModule,
+    FormsModule
+
  
     
   
