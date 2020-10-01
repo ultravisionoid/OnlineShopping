@@ -35,6 +35,7 @@ export class WishlistComponent implements OnInit {
    
     
     deleteItem(id){
+      console.log(id);
       this.wlService.deleteItem(id).subscribe(data=>{
     console.log("deleted");
     this.ngOnInit();
