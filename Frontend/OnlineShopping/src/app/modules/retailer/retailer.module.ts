@@ -5,7 +5,7 @@ import { RetailerRegistrationComponent } from './retailer-registration/retailer-
 import { RetailerProfileComponent } from './retailer-profile/retailer-profile.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import {MatFormFieldModule} from '@angular/material/form-field'
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input'
 import {MatButtonModule} from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -46,7 +46,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     MatListModule,
     NgbModule,
     MatIconModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    FormsModule
     
   ],
   exports:[
