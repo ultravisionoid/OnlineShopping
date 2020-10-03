@@ -17,6 +17,7 @@ import { HomePageComponent } from './modules/admin/home-page/home-page.component
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import{ MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -42,7 +43,8 @@ import { RouterModule } from '@angular/router';
     MatInputModule,
     MatFormFieldModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule
 
  
     
