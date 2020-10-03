@@ -6,7 +6,7 @@
         <button mat-icon-button (click)="toggleSideBar()">
             <mat-icon>menu</mat-icon>
         </button>
-        <span routerLink="">Toss Cart</span>
+        <span routerLink="">E Buy</span>
         <div fxFlex fxLayout='row' fxLayoutAlign="flex-end" class="rightElements">
             <ul  fxLayout="row" fxLayoutGap=20px>
                 <li>
@@ -16,17 +16,17 @@
                 </li>
                 
                 <li>
-                    <button mat-icon-button routerLink="/compare">
+                    <button mat-icon-button (click)="Compare()">
                         <mat-icon>compare</mat-icon>
                     </button>
                 </li>
              <li>
-                 <button mat-icon-button routerLink="/wishlist">
+                 <button mat-icon-button (click)="Wishlist()">
                      <mat-icon>bookmark_border</mat-icon>
                  </button>
              </li>
              <li>
-                 <button mat-icon-button routerLink="/cart">
+                 <button mat-icon-button (click)="Cart()">
                      <mat-icon>shopping_cart</mat-icon>
                  </button>
              </li>

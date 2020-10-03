@@ -38,8 +38,24 @@ export class HeaderComponent implements OnInit {
       
     }
     else if(this.person=="admin"){
-      this.router.navigate(["/adminProfile"]);
+      this.router.navigate(["/homepage"]);
+    }
+    console.log(this.person);
+  }
+  Cart(){
+    if(this.person=="user"){
+      this.router.navigate(["/cart"]);
+    }
+    
+  }
+  Wishlist(){
+    if(this.person=="user"){
+      this.router.navigate(["/wishlist"]);
     }
   }
-
+  Compare(){
+    if(this.person=="user"){
+      this.router.navigate(["/compare"]);
+    }
+  }
 }

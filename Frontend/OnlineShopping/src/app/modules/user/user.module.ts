@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { CartComponent } from './cart/cart.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     MatToolbarModule,
     MatCardModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ],
   exports:[
     UserProfileComponent,

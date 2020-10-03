@@ -39,6 +39,10 @@ export class SidebarComponent implements OnInit {
   logout(){
     localStorage.setItem("login","true");
     localStorage.setItem('name','');
+    localStorage.setItem('UserId','');
+    localStorage.setItem('UserData','');
+    localStorage.setItem('retailer','');
+    localStorage.setItem('retailerData','');
     
     localStorage.setItem("person","");
     this._document.location.href = '/';

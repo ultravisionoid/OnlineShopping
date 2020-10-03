@@ -20,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { CategoryComponent } from './category/category.component';
 import { CompareComponent } from './compare/compare.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     NgbModule,
     MatIconModule,
     Ng2SearchPipeModule,
-    FormsModule
+    FormsModule,
+    SharedModule
     
   ],
   exports:[

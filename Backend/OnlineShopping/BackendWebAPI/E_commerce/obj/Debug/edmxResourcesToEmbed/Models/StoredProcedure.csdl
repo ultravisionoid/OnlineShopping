@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="E_CommerceModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="E_CommerceEntities4" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="wishlist_sp" ReturnType="Collection(E_CommerceModel1.wishlist_sp_Result)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="wishlist_sp_Result">
+    <Property Type="String" Name="Product_Name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Product_Description" Nullable="false" />
+    <Property Type="Decimal" Name="Product_Price" Nullable="false" Precision="10" Scale="2" />
+    <Property Type="String" Name="Product_Category" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="Retailer_Id" Nullable="false" />
+    <Property Type="Int32" Name="Is_Verified" Nullable="false" />
+    <Property Type="String" Name="Product_Image" Nullable="true" MaxLength="100" />
+  </ComplexType>
+</Schema>

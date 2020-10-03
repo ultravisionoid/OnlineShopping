@@ -35,7 +35,6 @@ abc:any;
         localStorage.setItem("userData",JSON.stringify(user));
         this.abc=JSON.parse(localStorage.getItem("User_Id"));
         console.log(this.abc);
-        localStorage.setItem("name",JSON.stringify(this.abc["First_Name"]+" "+this.abc["Last_Name"]));
         localStorage.setItem("login","false");
         
         localStorage.setItem("compareItems","0");
@@ -45,6 +44,8 @@ abc:any;
 
 
       localStorage.setItem("UserId",JSON.stringify(data));
+      localStorage.setItem("name",data["First_Name"]+" "+data["Last_Name"]);
+        
       localStorage.setItem("login","false");
       
       localStorage.setItem("person","user");

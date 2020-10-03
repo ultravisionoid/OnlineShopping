@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="E_CommerceModel1StoreContainer" CdmEntityContainer="E_CommerceEntities4">
+    <FunctionImportMapping FunctionImportName="wishlist_sp" FunctionName="E_CommerceModel1.Store.wishlist_sp">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="E_CommerceModel1.wishlist_sp_Result">
+          <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+          <ScalarProperty Name="Product_Description" ColumnName="Product_Description" />
+          <ScalarProperty Name="Product_Price" ColumnName="Product_Price" />
+          <ScalarProperty Name="Product_Category" ColumnName="Product_Category" />
+          <ScalarProperty Name="Retailer_Id" ColumnName="Retailer_Id" />
+          <ScalarProperty Name="Is_Verified" ColumnName="Is_Verified" />
+          <ScalarProperty Name="Product_Image" ColumnName="Product_Image" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

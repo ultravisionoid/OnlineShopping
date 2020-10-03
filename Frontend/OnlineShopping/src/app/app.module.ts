@@ -19,6 +19,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import{ MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { RouterModule } from '@angular/router';
     MatFormFieldModule,
     RouterModule,
     FormsModule,
-    MatButtonModule
+    MatButtonModule,
+    SharedModule
 
  
     

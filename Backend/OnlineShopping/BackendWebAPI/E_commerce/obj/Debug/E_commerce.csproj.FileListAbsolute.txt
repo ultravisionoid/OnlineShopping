@@ -1,0 +1,207 @@
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.dll.config
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.pdb
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.exe
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.exe.config
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.rsp
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csi.exe
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csi.rsp
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.AppContext.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Collections.Immutable.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.IO.FileSystem.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.exe
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.exe.config
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.rsp
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\VBCSCompiler.exe
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\VBCSCompiler.exe.config
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Antlr3.Runtime.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.SqlServer.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.Web.Infrastructure.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Newtonsoft.Json.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Net.Http.Formatting.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Helpers.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.WebHost.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Mvc.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Optimization.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Razor.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Deployment.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Razor.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\WebGrease.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.SqlServer.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Newtonsoft.Json.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Net.Http.Formatting.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Helpers.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.WebHost.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Mvc.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Optimization.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Razor.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Deployment.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Razor.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Antlr3.Runtime.pdb
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csprojAssemblyReference.cache
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csproj.CoreCompileInputs.cache
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csproj.CopyComplete
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.pdb
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Cors.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.Cors.dll
+D:\Project Gladiator\OnlineShopping\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.Cors.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.dll.config
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.pdb
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.exe
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.exe.config
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.rsp
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csi.exe
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csi.rsp
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.exe
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.rsp
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Net.Http.Formatting.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Cors.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Helpers.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.Cors.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.WebHost.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Mvc.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Optimization.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Razor.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\WebGrease.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.Cors.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Net.Http.Formatting.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Helpers.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.WebHost.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Mvc.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Optimization.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Razor.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csproj.CopyComplete
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.dll
+C:\Users\Asus\Documents\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.pdb
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csprojAssemblyReference.cache
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csproj.CoreCompileInputs.cache
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.pdb
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.dll.config
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\E_commerce.pdb
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.exe
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.exe.config
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csc.rsp
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csi.exe
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\csi.rsp
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.AppContext.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.exe
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.exe.config
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\vbc.rsp
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Antlr3.Runtime.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.SqlServer.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Newtonsoft.Json.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Net.Http.Formatting.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Cors.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Helpers.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.Cors.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.WebHost.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Mvc.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Optimization.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Razor.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Razor.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\WebGrease.dll
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\EntityFramework.SqlServer.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.Cors.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Newtonsoft.Json.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Net.Http.Formatting.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Helpers.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Http.WebHost.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Mvc.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Optimization.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.Razor.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\System.Web.WebPages.Razor.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Antlr3.Runtime.pdb
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\aayus\Downloads\Backend\OnlineShopping\BackendWebAPI\E_commerce\obj\Debug\E_commerce.csproj.CopyComplete
