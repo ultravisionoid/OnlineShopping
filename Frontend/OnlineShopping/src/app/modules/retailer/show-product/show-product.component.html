@@ -9,9 +9,9 @@
 <br>
 <br>
 <div fxflex>
-    <div *ngFor="let Pro of Products|filter:term">
+    <div>
         <div class="row">
-            <div class="column">
+            <div class="column" *ngFor="let Pro of Products|filter:term">
               <div class="card">
                 <img [src]="Pro.Product_Image" alt="Avatar" >
             <div class="container">
