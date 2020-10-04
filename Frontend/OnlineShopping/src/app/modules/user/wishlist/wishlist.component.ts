@@ -18,7 +18,7 @@ export class WishlistComponent implements OnInit {
   constructor(private fb:FormBuilder, private wlService:WishlistService ,private router:Router) { }
 
   ngOnInit(): void {
-    this.id=JSON.parse(localStorage.getItem("userData"));
+    this.id=JSON.parse(localStorage.getItem("UserId"));
     console.log(this.id);
     this.ID=JSON.parse(this.id["User_Id"]);
     console.log(this.ID);

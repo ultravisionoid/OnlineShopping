@@ -44,6 +44,7 @@ abc:any;
 
 
       localStorage.setItem("UserId",JSON.stringify(data));
+      localStorage.setItem("UserData",JSON.stringify(data))
       localStorage.setItem("name",data["First_Name"]+" "+data["Last_Name"]);
         
       localStorage.setItem("login","false");

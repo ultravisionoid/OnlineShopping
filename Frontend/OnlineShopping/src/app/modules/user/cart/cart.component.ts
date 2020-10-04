@@ -24,7 +24,7 @@ orderid:number;
 Order_Id;
 ID:number;
   ngOnInit(): void {
-    this.idd=JSON.parse(localStorage.getItem("userData"));
+    this.idd=JSON.parse(localStorage.getItem("UserData"));
     console.log(this.idd);
     this.ID=JSON.parse(this.idd["User_Id"]);
     console.log(this.ID);
