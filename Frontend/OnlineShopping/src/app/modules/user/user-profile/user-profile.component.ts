@@ -10,7 +10,7 @@ export class UserProfileComponent implements OnInit {
   constructor() { }
   user:User;
   ngOnInit(): void {
-    this.user=JSON.parse(localStorage.getItem("userData"));
+    this.user=JSON.parse(localStorage.getItem("UserData"));
   }
 
 }
