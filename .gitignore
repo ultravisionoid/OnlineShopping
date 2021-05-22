@@ -1,0 +1,6 @@
+
+*.cache
+*.config
+*.config
+Backend/OnlineShopping/BackendWebAPI/.vs/BackendWebAPI/config/applicationhost.config
+Backend/OnlineShopping/BackendWebAPI/E_commerce/obj/Debug/E_commerce.csprojAssemblyReference.cache
